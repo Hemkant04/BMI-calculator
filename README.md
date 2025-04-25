@@ -1,2 +1,2 @@
 # BMI-calculator
-Check your BMI here : https://bmi.hemkant.com.np/
+Check your BMI here :  https://bmi.hemkant.com.np/

@@ -1,6 +1,8 @@
 const btnEl = document.getElementById("btn")
 const bmiInputEl = document.getElementById("bmi-result")
 const weightConditionEl = document.getElementById("weight-condition")
+const convertBtnEl= document.getElementById("convert-btn")
+const resultCm=document.getElementById("cm")
 
 
 function calculateBMI(){
@@ -24,6 +26,15 @@ function calculateBMI(){
 
     }
 }
+function converter(){
+    const feetValue=document.getElementById("feet").value;
+    
+    const cmValue= feetValue * 30.48;
+
+    resultCm.value=cmValue;
+
+}
 
 
 btnEl.addEventListener("click", calculateBMI)
+convertBtnEl.addEventListener("click", converter)
